@@ -9,11 +9,14 @@ Bab ini akan mempelajari tentang transformasi matriks, yaitu fungsi yang memetak
 
 ## Transformasi Matriks
 
-Sebuah transformasi matriks adalah fungsi $T:\mathbb{R}^3 \rightarrow \mathbb{R}^2$ yang didefinisikan oleh; $$T(\vec{x})=A\vec{x}$$
+Sebuah transformasi matriks adalah fungsi $T:\mathbb{R}^3 \rightarrow \mathbb{R}^2$ yang didefinisikan oleh; 
+
+$$T(\vec{x})=A\vec{x}$$
 
 dimana A adalah berukuran $m\times n$ dan $\vec{x}$ adalah vektor di $\mathbb{R}^n$.
 
 Transformasi matriks bersifat linear, yang berarti memenuhi dua sifat berikut:
+
 $$1. T(\vec{u}+\vec{v})=T(\vec{u})+T(\vec{v})$$
 
 $$2. T(c\vec{u})= cT(\vec{u}), untuk\space skalar\space c.$$
@@ -216,6 +219,7 @@ Mencerminkan objeck terhadap sumbu garis. contoh Matriks Refleksi:
 
 #### 5. Shear (Pergeseran Geser)
 Menggeser objek sepanjang sumbu tertentu. Contoh Matriks Shear:
+
 $$Shear horizontal:\space \left[\begin{array}{cc}1&k\\0&1\end{array}\right]$$
 
 ### Sifat Transformasi Linear
@@ -377,6 +381,7 @@ Titik asal=(0,0), lalu titik persegi Vektor awal $\vec{x}=\left[\begin{array}{cc
 - Buletan berada di (1.5,3) hasil dari $A\left[\begin{array}{cc}1\\1\end{array}\right]$
 
 maka
+
 $$A=\left[\begin{array}{cc}0.5&1\\1&2\end{array}\right]$$
 
 6. ![6](https://hackmd.io/_uploads/H1S5IFwCJx.png)
