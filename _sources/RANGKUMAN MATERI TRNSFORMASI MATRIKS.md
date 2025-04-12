@@ -126,6 +126,7 @@ Transformasi Bidang Cartesian adalah operasi matematis yang mengubah posisi, ben
 #### 1. Translasi (Pergeseran)
 - memindahkan objek sejauh vektor tertentu $\vec{v}=[a,b]$ dengan menggunakan rumus $T(\vec{x})=\vec{x}+\vec{v}$
 -contoh:
+
 $$
 T
 \left(
@@ -231,6 +232,7 @@ Contoh: Rotasi + Penskalaan = $R_θ\times S$.
 ## 5.1.4 Exercises
 
 latihan kelompok. Diberikan matriks A. Gambarlah $\vec{x},\space \vec{y},\space A\vec{x},\space dan\space A\vec{y}$ pada sumbu Cartesian yang sama, dimana;
+
 $$\vec{x}=\left[\begin{array}{cc}1\\1\end{array}\right]\space and\space\vec{y}=\left[\begin{array}{cc}-1\\2\end{array}\right]$$
 
 $1.\space A=\left[\begin{array}{cc}1&-1\\2&3\end{array}\right]$
@@ -393,4 +395,5 @@ Titik asal=(0,0), lalu titik persegi Vektor awal $\vec{x}=\left[\begin{array}{cc
 - Buletan berada di (0,2) hasil dari $A\left[\begin{array}{cc}1\\1\end{array}\right]$
 
 maka
+
 $$A=\left[\begin{array}{cc}-1&1\\1&1\end{array}\right]$$
