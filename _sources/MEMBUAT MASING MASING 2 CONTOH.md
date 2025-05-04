@@ -1,5 +1,5 @@
 ---
-title: '#MEMBUAT MASING MASING 2 CONTO'
+title: 'MEMBUAT MASING MASING 2 CONTOH'
 
 ---
 
