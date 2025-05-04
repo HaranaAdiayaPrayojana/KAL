@@ -8,8 +8,7 @@ title: PEMBUKTIAN TRANSFORMASI LINIER
 Membuktikan Bahwa $T(v_1,v_2)=(v_1+v_2,v_1)$ Merupakan Transformasi Linear Dengan Rumus $(u+v)=T(u)+T(v)$
 
 $$T(v_1,v_2)=(v_1+v_2,v_1)$$
-Membuat Permisalan vektor:
-$$u=(u_1,u_2)$$
+Membuat Permisalan vektor $u=(u_1,u_2) :$
 
 $$v=(v_1,v_2)$$
 
