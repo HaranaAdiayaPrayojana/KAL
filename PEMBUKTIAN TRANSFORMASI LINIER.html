@@ -62,6 +62,7 @@
     <script>DOCUMENTATION_OPTIONS.pagename = 'PEMBUKTIAN TRANSFORMASI LINIER';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="MEMBUAT MASING MASING 2 CONTOH REFLEKSI" href="MEMBUAT%20MASING%20MASING%202%20CONTOH.html" />
     <link rel="prev" title="RANGKUMAN MATERI TRNSFORMASI MATRIKS" href="RANGKUMAN%20MATERI%20TRNSFORMASI%20MATRIKS.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
@@ -187,6 +188,7 @@
 <li class="toctree-l1"><a class="reference internal" href="MEMBUKTIKAN%20SOLUSI%20DARI%206%20PERSAMAAN%20DENGAN%20MENGGUNAKAN%20INVERS%201%200%200%200%200%200.html">MEMBUKTIKAN SOLUSI DARI 6 PERSAMAAN DENGAN MENGGUNAKAN INVERS 1 0 0 0 0 0</a></li>
 <li class="toctree-l1"><a class="reference internal" href="RANGKUMAN%20MATERI%20TRNSFORMASI%20MATRIKS.html">RANGKUMAN MATERI TRNSFORMASI MATRIKS</a></li>
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">MEMBUKTIKAN BAHWA <span class="math notranslate nohighlight">\(T(v_1,v_2)=(v_1+v_2,v_1)\)</span> MERUPAKAN TRANSFORMASI LINIER</a></li>
+<li class="toctree-l1"><a class="reference internal" href="MEMBUAT%20MASING%20MASING%202%20CONTOH.html">MEMBUAT MASING MASING 2 CONTOH REFLEKSI</a></li>
 </ul>
 
     </div>
@@ -393,11 +395,13 @@ document.write(`
 $<span class="math notranslate nohighlight">\(u=(u_1,u_2)\)</span>$</p>
 <div class="math notranslate nohighlight">
 \[v=(v_1,v_2)\]</div>
-<p>Menghitung <span class="math notranslate nohighlight">\(u+v\)</span> :
-$<span class="math notranslate nohighlight">\(u+v=(u_1+v_1,u_2+v_2)\)</span><span class="math notranslate nohighlight">\(
-Menghitung \)</span>T(u+v)<span class="math notranslate nohighlight">\(: 
-\)</span><span class="math notranslate nohighlight">\(T(u+v)=T(u_1+v_1,u_2+v_2)=((u_1+v_1)+(u_2+v_2),u_1+v_1)=(u_1+u_2+v_1+v_2,v_1+v_1)\)</span><span class="math notranslate nohighlight">\(
-Menghitung \)</span>T(u)+T(v)$:</p>
+<p>Menghitung <span class="math notranslate nohighlight">\(u+v\)</span> :</p>
+<div class="math notranslate nohighlight">
+\[u+v=(u_1+v_1,u_2+v_2)\]</div>
+<p>Menghitung <span class="math notranslate nohighlight">\(T(u+v)\)</span>:</p>
+<div class="math notranslate nohighlight">
+\[T(u+v)=T(u_1+v_1,u_2+v_2)=((u_1+v_1)+(u_2+v_2),u_1+v_1)=(u_1+u_2+v_1+v_2,v_1+v_1)\]</div>
+<p>Menghitung <span class="math notranslate nohighlight">\(T(u)+T(v)\)</span>:</p>
 <div class="math notranslate nohighlight">
 \[T(u)=(u_1+u_2,u_1), T(v)=(v_1+v_2,v_1)\]</div>
 <div class="math notranslate nohighlight">
@@ -408,12 +412,15 @@ $<span class="math notranslate nohighlight">\(T(u+v)=T(u)+T(v)\)</span>$</p>
 \[(u_1+u_2+v_1+v_2,u_1+v_1)=(u_1+u_2+v_1+v_2,u_1+v_1)\]</div>
 <p>Jadi <span class="math notranslate nohighlight">\(T(u)+T(v)\)</span> dan <span class="math notranslate nohighlight">\(T(u+v)\)</span> merupakan Transformasi Linear.</p>
 <p>Membuktikan Bahwa <span class="math notranslate nohighlight">\(T(v_1,v_2)=(v_1+v_2,v_1)\)</span> Merupakan Transformasi Linear Dengan Rumus <span class="math notranslate nohighlight">\(T(cu)=cT(u)\)</span></p>
-<p>menghitung <span class="math notranslate nohighlight">\(cu\)</span>:
-$<span class="math notranslate nohighlight">\(cu=(cu_1,cu_2)\)</span><span class="math notranslate nohighlight">\(
-menghitung \)</span>T(cu)<span class="math notranslate nohighlight">\(:
-\)</span><span class="math notranslate nohighlight">\(T(cu_1,cu_2)=(cu_1+cu_2,cu_1)=c(u_1+u_2,u_1)\)</span><span class="math notranslate nohighlight">\(
-menghitung \)</span>cT(u)<span class="math notranslate nohighlight">\(:
-\)</span><span class="math notranslate nohighlight">\(T(u)=(u_1+u_2,u_1)\)</span>$</p>
+<p>menghitung <span class="math notranslate nohighlight">\(cu\)</span>:</p>
+<div class="math notranslate nohighlight">
+\[cu=(cu_1,cu_2)\]</div>
+<p>menghitung <span class="math notranslate nohighlight">\(T(cu)\)</span>:</p>
+<div class="math notranslate nohighlight">
+\[T(cu_1,cu_2)=(cu_1+cu_2,cu_1)=c(u_1+u_2,u_1)\]</div>
+<p>menghitung <span class="math notranslate nohighlight">\(cT(u)\)</span>:</p>
+<div class="math notranslate nohighlight">
+\[T(u)=(u_1+u_2,u_1)\]</div>
 <div class="math notranslate nohighlight">
 \[cT(u)=c(u_1+u_2,u_1)\]</div>
 <p>Setelah mengetahui hasil dari <span class="math notranslate nohighlight">\(T(cu)\)</span> dan <span class="math notranslate nohighlight">\(cT(u)\)</span> maka kita bandingkan hasil dari kedua rumus tersebut. jika keduanya memiliki hasil yang sama, maka <span class="math notranslate nohighlight">\(T(v_1,v_2)=(v_1+v_2,v_1)\)</span> merupakan Transformasi Linear.
@@ -461,6 +468,15 @@ $<span class="math notranslate nohighlight">\(T(cu)=cT(u)\)</span>$</p>
         <p class="prev-next-subtitle">previous</p>
         <p class="prev-next-title">RANGKUMAN MATERI TRNSFORMASI MATRIKS</p>
       </div>
+    </a>
+    <a class="right-next"
+       href="MEMBUAT%20MASING%20MASING%202%20CONTOH.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">MEMBUAT MASING MASING 2 CONTOH REFLEKSI</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
     </a>
 </div>
                 </footer>
