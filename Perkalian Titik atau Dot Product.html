@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>My Diary Book &#8212; My sample book</title>
+    <title>Perkalian Titik atau Dot Product &#8212; My sample book</title>
   
   
   
@@ -59,10 +59,10 @@
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
     <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
     <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'intro';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'Perkalian Titik atau Dot Product';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Sistem Persamaan Linier" href="Sistem%20Persamaan%20Linier.html" />
+    <link rel="prev" title="EigenVektor dan EigenValue" href="EigenVektor%20dan%20EigenValue.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -125,8 +125,6 @@
       
       
       
-        
-      
       <div class="bd-sidebar-primary bd-sidebar">
         
 
@@ -145,7 +143,7 @@
     
   
 
-<a class="navbar-brand logo" href="#">
+<a class="navbar-brand logo" href="intro.html">
   
   
   
@@ -176,13 +174,13 @@
     <div class="bd-toc-item navbar-nav active">
         
         <ul class="nav bd-sidenav bd-sidenav__home-link">
-            <li class="toctree-l1 current active">
-                <a class="reference internal" href="#">
+            <li class="toctree-l1">
+                <a class="reference internal" href="intro.html">
                     My Diary Book
                 </a>
             </li>
         </ul>
-        <ul class="nav bd-sidenav">
+        <ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="Sistem%20Persamaan%20Linier.html">Sistem Persamaan Linier</a></li>
 <li class="toctree-l1"><a class="reference internal" href="PENYELESAIAN%20SISTEM%20LINEAR%20TIGA%20DIMENSI%20DENGAN%20MENGGUNAKAN%20SITEM%20PERSAMAAN%20LINEAR%20GAUS.html">PENYELESAIAN SISTEM LINEAR TIGA DIMENSI DENGAN MENGGUNAKAN SITEM PERSAMAAN LINEAR GAUS</a></li>
 <li class="toctree-l1"><a class="reference internal" href="MEMBUKTIKAN%20SOLUSI%20DARI%203%20PERSAMAAN%20DENGAN%20MENGGUNAKAN%20INVERS.html">MEMBUKTIKAN SOLUSI DARI 3 PERSAMAAN DENGAN MENGGUNAKAN INVERS 1 0 0</a></li>
@@ -196,7 +194,7 @@
 
 
 <li class="toctree-l1"><a class="reference internal" href="EigenVektor%20dan%20EigenValue.html">EigenVektor dan EigenValue</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Perkalian%20Titik%20atau%20Dot%20Product.html">Perkalian Titik atau Dot Product</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Perkalian Titik atau Dot Product</a></li>
 
 </ul>
 
@@ -269,7 +267,7 @@
       
       
       
-      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Fintro.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2FPerkalian Titik atau Dot Product.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -299,7 +297,7 @@
       
       
       
-      <li><a href="_sources/intro.md" target="_blank"
+      <li><a href="_sources/Perkalian Titik atau Dot Product.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -370,7 +368,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
 </div></div>
       
     </div>
@@ -381,11 +381,29 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>My Diary Book</h1>
+    <h1>Perkalian Titik atau Dot Product</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Perkalian Titik atau Dot Product</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#geometri-dari-hasil-kali-titik">Geometri dari Hasil Kali Titik</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#contoh-penerapan-dot-product-dalam-basis-dua-dimensi">contoh penerapan Dot Product dalam Basis dua dimensi:</a></li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#perkalian-titik-dan-panjang-vektor">Perkalian titik dan panjang vektor</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#panjang-vektor-di-mathbb-r-2">Panjang Vektor di <span class="math notranslate nohighlight">\(\mathbb{R}^2\)</span></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#implementasi-geometris">Implementasi Geometris</a></li>
+</ul>
+</li>
+</ul>
+
+            </nav>
         </div>
     </div>
 </div>
@@ -395,11 +413,190 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="my-diary-book">
-<h1>My Diary Book<a class="headerlink" href="#my-diary-book" title="Link to this heading">#</a></h1>
-<p>Selamat datang di web satatis saya, semoga betah</p>
-<div class="toctree-wrapper compound">
-</div>
+  <section class="tex2jax_ignore mathjax_ignore" id="perkalian-titik-atau-dot-product">
+<h1>Perkalian Titik atau Dot Product<a class="headerlink" href="#perkalian-titik-atau-dot-product" title="Link to this heading">#</a></h1>
+<p>Perkalian Titik atau Dot Prouct dapat membantu dalam mengukur panjang vektor dan sudut yang dibentuk oleh sepadang vektor. Untuk vektor-vektor dua dimensi v dan w, hasil kali titik (v.w) didefinisikan sebagai bilangan skalar berikut:</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+v.w=
+\begin{bmatrix}
+v_1\\
+v_2
+\end{bmatrix}.
+\begin{bmatrix}
+w_1\\
+w_2
+\end{bmatrix}=
+v_1w_1+v_2w_2.
+\end{split}\]</div>
+<section id="geometri-dari-hasil-kali-titik">
+<h2>Geometri dari Hasil Kali Titik<a class="headerlink" href="#geometri-dari-hasil-kali-titik" title="Link to this heading">#</a></h2>
+<p>Hasil kali dari dua titik akan menghasilkan sebuah bilangan skalar, Artinya dua vektor digabungkan dalam cara tertentu sehingga menghasilkan sebuah nilai. Hasil kali titik untuk dua vektor berdimensi m sebagai berikut:</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+v.w=
+\begin{bmatrix}
+v_1\\
+v_2\\
+:\\
+v_m
+\end{bmatrix}.
+\begin{bmatrix}
+w_1\\
+w_2\\
+:\\
+w_m
+\end{bmatrix}=
+v_1w_1+v_2w_2+...+v_m w_m
+\end{split}\]</div>
+<p>contoh:</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+v.w=
+\begin{bmatrix}
+2\\
+0\\
+-3\\
+1
+\end{bmatrix}.
+\begin{bmatrix}
+-1\\
+3\\
+1\\
+2
+\end{bmatrix}=
+2(-1)+0(-3)+(-3)(1)+1(2)=-3
+\end{split}\]</div>
+</section>
+<section id="contoh-penerapan-dot-product-dalam-basis-dua-dimensi">
+<h2>contoh penerapan Dot Product dalam Basis dua dimensi:<a class="headerlink" href="#contoh-penerapan-dot-product-dalam-basis-dua-dimensi" title="Link to this heading">#</a></h2>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+A=
+\begin{bmatrix}
+1&amp;0\\
+0&amp;1
+\end{bmatrix}
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+v=
+\begin{bmatrix}
+1\\0
+\end{bmatrix}
+w=
+\begin{bmatrix}
+0\\1
+\end{bmatrix}
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\begin{bmatrix}
+1\\
+0
+\end{bmatrix}.
+\begin{bmatrix}
+0\\
+1
+\end{bmatrix}=
+1\times 0+0\times 1=0
+\end{split}\]</div>
+<p>Digambar menggunakan geogebra:</p>
+<iframe src="https://www.geogebra.org/classic/ja8x3vuj?embed" width="800" height="600" allowfullscreen style="border: 1px solid #e4e4e4;border-radius: 4px;" frameborder="0"></iframe>
+<p>contoh lainnya:</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+A=
+\begin{bmatrix}
+2&amp;4\\
+-3&amp;1
+\end{bmatrix}
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+v=
+\begin{bmatrix}
+2\\-3
+\end{bmatrix}
+w=
+\begin{bmatrix}
+4\\1
+\end{bmatrix}
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\begin{bmatrix}
+2\\
+-3
+\end{bmatrix}.
+\begin{bmatrix}
+4\\
+1
+\end{bmatrix}=
+2\times 4+(-3)\times 1=5
+\end{split}\]</div>
+<p>jadi sumbu v dan w memiliki dot product dengan nilai 5 dengan sudut 70.35 derajat.</p>
+<p>Digambar menggunakan geogebra:</p>
+<iframe src="https://www.geogebra.org/classic/aawhgt67?embed" width="800" height="600" allowfullscreen style="border: 1px solid #e4e4e4;border-radius: 4px;" frameborder="0"></iframe>
+<p>Jika terdapat dua titik yang menghasikan sudut 90 derajat, maka nilai Dot Product dari kedua titik tersebut. Contoh
+$<span class="math notranslate nohighlight">\(
+v=
+\begin{bmatrix}
+-1\\
+2
+\end{bmatrix}
+u=
+\begin{bmatrix}
+2\\
+1
+\end{bmatrix}
+\)</span>$</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+v.w=
+\begin{bmatrix}
+v_1\\
+v_2
+\end{bmatrix}.
+\begin{bmatrix}
+w_1\\
+w_2
+\end{bmatrix}=
+v_1w_1+v_2w_2.
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+v.w=
+\begin{bmatrix}
+-1\\
+2
+\end{bmatrix}.
+\begin{bmatrix}
+2\\
+1
+\end{bmatrix}=
+-1\times 2+2\times 1=0
+\end{split}\]</div>
+</section>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="perkalian-titik-dan-panjang-vektor">
+<h1>Perkalian titik dan panjang vektor<a class="headerlink" href="#perkalian-titik-dan-panjang-vektor" title="Link to this heading">#</a></h1>
+<section id="panjang-vektor-di-mathbb-r-2">
+<h2>Panjang Vektor di <span class="math notranslate nohighlight">\(\mathbb{R}^2\)</span><a class="headerlink" href="#panjang-vektor-di-mathbb-r-2" title="Link to this heading">#</a></h2>
+<p>Dalam ruang vektor dua dimensi panjang x=(x,y), didefinisikan sebagai jarak dari titik asal (0,0). Jarak ini dihitung menggunkan Teorema Pythagoras dimana:</p>
+<div class="math notranslate nohighlight">
+\[\text{Panjang vektor } \mathbf{x} = \sqrt{x^2 + y^2}.\]</div>
+</section>
+<section id="implementasi-geometris">
+<h2>Implementasi Geometris<a class="headerlink" href="#implementasi-geometris" title="Link to this heading">#</a></h2>
+<p>vektor x=(x,y) dapat diwakili oleh garis lurus dari titik asal, hingga (x,y). Panjang ini adalah hipotenusa segitiga siku siku dengan kaki kakinya sepanjang x dan y.  <span class="math notranslate nohighlight">\(\mathbb{R}^2\)</span> adalah jarak dari titik asal hingga x(x,y), yang digunakan untuk menghitung jarak;
+$<span class="math notranslate nohighlight">\(d = \sqrt{x^2 + y^2}.\)</span>$</p>
+<p>contoh:</p>
+<iframe src="https://www.geogebra.org/classic/j5xmhmxn?embed" width="800" height="600" allowfullscreen style="border: 1px solid #e4e4e4;border-radius: 4px;" frameborder="0"></iframe>
+<p>Misalkan vector <span class="math notranslate nohighlight">\(u=(3,4)\)</span>:</p>
+<div class="math notranslate nohighlight">
+\[|\mathbf{U}| = \sqrt{3^2 + 4^2} = \sqrt{9 + 16} = \sqrt{25} = 5.\]</div>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -432,14 +629,14 @@ document.write(`
                 <footer class="prev-next-footer d-print-none">
                   
 <div class="prev-next-area">
-    <a class="right-next"
-       href="Sistem%20Persamaan%20Linier.html"
-       title="next page">
+    <a class="left-prev"
+       href="EigenVektor%20dan%20EigenValue.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
-        <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Sistem Persamaan Linier</p>
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">EigenVektor dan EigenValue</p>
       </div>
-      <i class="fa-solid fa-angle-right"></i>
     </a>
 </div>
                 </footer>
@@ -447,6 +644,31 @@ document.write(`
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Perkalian Titik atau Dot Product</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#geometri-dari-hasil-kali-titik">Geometri dari Hasil Kali Titik</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#contoh-penerapan-dot-product-dalam-basis-dua-dimensi">contoh penerapan Dot Product dalam Basis dua dimensi:</a></li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#perkalian-titik-dan-panjang-vektor">Perkalian titik dan panjang vektor</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#panjang-vektor-di-mathbb-r-2">Panjang Vektor di <span class="math notranslate nohighlight">\(\mathbb{R}^2\)</span></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#implementasi-geometris">Implementasi Geometris</a></li>
+</ul>
+</li>
+</ul>
+
+  </nav></div>
+
+</div></div>
               
             
           </div>
